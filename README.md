@@ -41,3 +41,21 @@ npm i
 
 nodemon app.js
 
+
+## Setup Instructions
+
+To run this project, you need to set up a `.env` file with necessary environment variables. Follow these steps:
+
+1. **Create a `.env` file** in the root directory of the project.
+2. **Add the following environment variables** to the `.env` file and fill in each with your credentials:
+
+   ```plaintext
+   CLOUD_NAME=
+   CLOUD_API_KEY=
+   CLOUD_API_SECRET=
+
+   MAP_TOKEN=
+
+   ATLASDB_URL=
+
+   SECRET=
